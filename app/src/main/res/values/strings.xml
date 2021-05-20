@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ViziGo</string>
+    <string name="loginhome">Already have an account? <u>Login</u></string>
+    <string name="Visitor">visitor</string>
+    <string name="Employee">employee</string>
+    <string name="Admin">admin</string>
+    <string name="Login">login</string>
+    <string name="Location">location</string>
+    <string name="Logo">logo</string>
+    <string name="visitor">VISITOR</string>
+    <string name="employee">EMPLOYEE</string>
+    <string name="admin">ADMIN</string>
+    <string name="login">LOGIN</string>
+    <string name="location">LOCATION</string>
+    <string name="start_camera">startCamera</string>
+    <string name="imageview">ivCamera</string>
+    <string name="ivCamera">ivCamera</string>
+    <string name="source">source</string>
+    <string name="destination">destination</string>
+    <string name="track">track</string>
+    <string name="compressed_image_location">/.ViziGo/compressed</string>
+    <string name="actual_image_location">/.ViziGo/actual</string>
+</resources>

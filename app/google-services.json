@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "176901298532",
+    "firebase_url": "https://vizigo-8d625.firebaseio.com",
+    "project_id": "vizigo-8d625",
+    "storage_bucket": "vizigo-8d625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176901298532:android:606c65b145cf85a564c271",
+        "android_client_info": {
+          "package_name": "com.example.vizigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176901298532-t2c0bjrk1b635b1n7ongqqijhicnocpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vizigo",
+            "certificate_hash": "50c38a1cebe09ebba050ad19db627902edd16972"
+          }
+        },
+        {
+          "client_id": "176901298532-klfqarcmf9g5b2nsqllf4a3cvn9qvv2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ZkmGK53B8uSURNaT8t6qgNBzbC6t57E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176901298532-klfqarcmf9g5b2nsqllf4a3cvn9qvv2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

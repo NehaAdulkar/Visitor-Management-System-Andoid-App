@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <EditText
+            android:id="@+id/purpose_of_meeting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_baseline_short_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Purpose of Meeting"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#B9BCC1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/date_time_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_baseline_date_time"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Select Date and Time of Visit"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#B9BCC1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_baseline_duration"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Duration of Visit"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#B9BCC1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/confirmappointment"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:background="#03A87C"
+            android:text="Confirm Appointment"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="#B9BCC1"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
